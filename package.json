@@ -1,0 +1,23 @@
+{
+  "name": "pixelnode-input-bbbgpio",
+  "version": "0.0.0",
+  "description": "Binary input from GPIOS (beaglebone only)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwisk/PixelNode_Input_bbbGPIO.git"
+  },
+  "author": {
+    "name": "Amely Kling",
+    "email": "mail@dwi.sk",
+    "url": "http://dwi.sk"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwisk/PixelNode_Input_bbbGPIO/issues"
+  },
+  "homepage": "https://github.com/dwisk/PixelNode_Input_bbbGPIO#readme"
+}
