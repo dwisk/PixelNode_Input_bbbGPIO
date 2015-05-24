@@ -1,6 +1,6 @@
 {
   "name": "pixelnode-input-bbbgpio",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Binary input from GPIOS (beaglebone only)",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/dwisk/PixelNode_Input_bbbGPIO/issues"
   },
-  "homepage": "https://github.com/dwisk/PixelNode_Input_bbbGPIO#readme"
+  "homepage": "https://github.com/dwisk/PixelNode_Input_bbbGPIO#readme",
+  "dependencies": {
+    "pixelnode-input": "0.0.2",
+    "underscore": "^1.8.3",
+    "bonescript": "^0.2.4"
+  }
 }
