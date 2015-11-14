@@ -1,6 +1,6 @@
 {
   "name": "pixelnode-input-bbbgpio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Binary input from GPIOS (beaglebone only)",
   "main": "index.js",
   "scripts": {
