@@ -46,7 +46,8 @@ PixelNode_Input_bbbGPIO.prototype.default_options = {
 		{ number: "P8_8", input: "button1", default: false },
 		{ number: "P8_10", input: "button2", default: false },
 		{ number: "P8_12", input: "button3", default: false }
-	]
+	],
+	frequency: 50
 };
 PixelNode_Input_bbbGPIO.prototype.status_interval = 0;
 
@@ -65,7 +66,7 @@ PixelNode_Input_bbbGPIO.prototype.init = function() {
 	this.initPins();
 
 	// start interval to get pin status
-	self.status_interval = setInterval(function() {self.getPinStatus()}, 200 );
+	self.status_interval = setInterval(function() {self.getPinStatus()}, self.options );
 
 }
 
